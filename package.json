@@ -1,7 +1,7 @@
 {
   "name": "iban-generator",
   "version": "0.1.0",
-  "repository": "idriesalbender/iban-sketch-plugin.git",
+  "repository": "https://github.com/idriesalbender/iban-sketch-plugin.git",
   "author": "idix",
   "scripts": {
     "build": "skpm-build",
