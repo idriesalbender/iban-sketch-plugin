@@ -21,5 +21,8 @@
   "devDependencies": {
     "@skpm/builder": "^0.5.11"
   },
-  "author": "idriesalbender <idries_albender@hotmail.com>"
+  "author": "idriesalbender <idries_albender@hotmail.com>",
+  "dependencies": {
+    "chance": "^1.0.18"
+  }
 }
