@@ -2,17 +2,35 @@
   "compatibleVersion": 3,
   "bundleVersion": 1,
   "icon": "icon.png",
+  "suppliesData": true,
   "commands": [
     {
-      "name": "my-command",
-      "identifier": "iban-generator.my-command-identifier",
-      "script": "./my-command.js"
+      "name": "Random IBAN",
+      "identifier": "iban-generator.iban-random",
+      "handlers": {
+        "actions": {
+          "Startup": "onStartup",
+          "Shutdown": "onShutdown",
+          "SupplyRandomIBAN": "onSupplyRandomIBAN"
+        }
+      },
+      "script": "./iban-random.js"
+    },
+    {
+      "name": "Country IBAN",
+      "identifier": "iban-generator.iban-country",
+      "handlers": {
+        "actions": {
+          "Startup": "onStartup",
+          "Shutdown": "onShutdown",
+          "SupplyCountryIBAN": "onSupplyCountryIBAN"
+        }
+      },
+      "script": "./iban-country.js"
     }
   ],
   "menu": {
-    "title": "iban-generator",
-    "items": [
-      "iban-generator.my-command-identifier"
-    ]
+    "title": "IBAN Generator",
+    "items": ["iban-generator.iban-random", "iban-generator.iban-country"]
   }
 }
