@@ -1,6 +1,20 @@
 {
   "name": "iban-generator",
   "version": "0.1.0",
+  "repository": "idriesalbender/iban-sketch-plugin.git",
+  "author": "idix",
+  "scripts": {
+    "build": "skpm-build",
+    "postinstall": "npm run build && skpm-link",
+    "start": "skpm-build --watch --run",
+    "watch": "skpm-build --watch"
+  },
+  "dependencies": {
+    "chance": "^1.0.18"
+  },
+  "devDependencies": {
+    "@skpm/builder": "^0.5.11"
+  },
   "engines": {
     "sketch": ">=3.0"
   },
@@ -11,18 +25,5 @@
     "assets": [
       "assets/**/*"
     ]
-  },
-  "scripts": {
-    "build": "skpm-build",
-    "watch": "skpm-build --watch",
-    "start": "skpm-build --watch --run",
-    "postinstall": "npm run build && skpm-link"
-  },
-  "devDependencies": {
-    "@skpm/builder": "^0.5.11"
-  },
-  "author": "idriesalbender <idries_albender@hotmail.com>",
-  "dependencies": {
-    "chance": "^1.0.18"
   }
 }
