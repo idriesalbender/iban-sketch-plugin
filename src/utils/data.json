@@ -1,0 +1,492 @@
+[
+  {
+    "country": { "code": "AL", "name": "Albania" },
+    "chars": 28,
+    "bbanFormat": { "alpha": 0, "digit": 8, "mixed": 16, "order": ["n", "c"] },
+    "ibanFormat": "CCkk bbbs sssx cccc cccc cccc cccc",
+    "id": 6576
+  },
+  {
+    "country": { "code": "AD", "name": "Andorra" },
+    "chars": 24,
+    "bbanFormat": { "alpha": 0, "digit": 8, "mixed": 12, "order": ["n", "c"] },
+    "ibanFormat": "CCkk bbbb ssss cccc cccc cccc",
+    "id": 6568
+  },
+  {
+    "country": { "code": "AT", "name": "Austria" },
+    "chars": 20,
+    "bbanFormat": { "alpha": 0, "digit": 16, "mixed": 0, "order": ["n"] },
+    "ibanFormat": "CCkk bbbb bccc cccc cccc",
+    "id": 6584
+  },
+  {
+    "country": { "code": "AZ", "name": "Azerbaijan" },
+    "chars": 28,
+    "bbanFormat": { "alpha": 0, "digit": 20, "mixed": 4, "order": ["c", "n"] },
+    "ibanFormat": "CCkk bbbb cccc cccc cccc cccc cccc",
+    "id": 6590
+  },
+  {
+    "country": { "code": "BH", "name": "Bahrain" },
+    "chars": 22,
+    "bbanFormat": { "alpha": 4, "digit": 0, "mixed": 14, "order": ["a", "c"] },
+    "ibanFormat": "CCkk bbbb cccc cccc cccc cc",
+    "id": 6672
+  },
+  {
+    "country": { "code": "BY", "name": "Belarus" },
+    "chars": 28,
+    "bbanFormat": { "alpha": 0, "digit": 20, "mixed": 4, "order": ["c", "n"] },
+    "ibanFormat": "CCkk bbbb aaaa cccc cccc cccc cccc",
+    "id": 6689
+  },
+  {
+    "country": { "code": "BE", "name": "Belgium" },
+    "chars": 16,
+    "bbanFormat": { "alpha": 0, "digit": 12, "mixed": 0, "order": ["n"] },
+    "ibanFormat": "CCkk bbbc cccc ccxx",
+    "id": 6669
+  },
+  {
+    "country": { "code": "BA", "name": "Bosnia and Herzegovina" },
+    "chars": 20,
+    "bbanFormat": { "alpha": 0, "digit": 16, "mixed": 0, "order": ["n"] },
+    "ibanFormat": "CCkk bbbs sscc cccc ccxx",
+    "id": 6665
+  },
+  {
+    "country": { "code": "BR", "name": "Brazil" },
+    "chars": 29,
+    "bbanFormat": { "alpha": 1, "digit": 23, "mixed": 1, "order": ["n", "a", "c"] },
+    "ibanFormat": "CCkk bbbb bbbb ssss sccc cccc ccct n",
+    "id": 6682
+  },
+  {
+    "country": { "code": "BG", "name": "Bulgaria" },
+    "chars": 22,
+    "bbanFormat": { "alpha": 4, "digit": 6, "mixed": 8, "order": ["a", "n", "c"] },
+    "ibanFormat": "CCkk bbbb ssss ttcc cccc cc",
+    "id": 6671
+  },
+  {
+    "country": { "code": "CR", "name": "Costa Rica" },
+    "chars": 22,
+    "bbanFormat": { "alpha": 0, "digit": 18, "mixed": 0, "order": ["n"] },
+    "ibanFormat": "CCkk 0bbb cccc cccc cccc cc",
+    "id": 6782
+  },
+  {
+    "country": { "code": "HR", "name": "Croatia" },
+    "chars": 21,
+    "bbanFormat": { "alpha": 0, "digit": 17, "mixed": 0, "order": ["n"] },
+    "ibanFormat": "CCkk bbbb bbbc cccc cccc c",
+    "id": 7282
+  },
+  {
+    "country": { "code": "CY", "name": "Cyprus" },
+    "chars": 28,
+    "bbanFormat": { "alpha": 0, "digit": 8, "mixed": 16, "order": ["n", "c"] },
+    "ibanFormat": "CCkk bbbs ssss cccc cccc cccc cccc",
+    "id": 6789
+  },
+  {
+    "country": { "code": "CZ", "name": "Czech Republic" },
+    "chars": 24,
+    "bbanFormat": { "alpha": 0, "digit": 20, "mixed": 0, "order": ["n"] },
+    "ibanFormat": "CCkk bbbb ssss sscc cccc cccc",
+    "id": 6790
+  },
+  {
+    "country": { "code": "DK", "name": "Denmark" },
+    "chars": 18,
+    "bbanFormat": { "alpha": 0, "digit": 14, "mixed": 0, "order": ["n"] },
+    "ibanFormat": "CCkk bbbb cccc cccc cc",
+    "id": 6875
+  },
+  {
+    "country": { "code": "DO", "name": "Dominican Republic" },
+    "chars": 28,
+    "bbanFormat": { "alpha": 4, "digit": 20, "mixed": 0, "order": ["a", "n"] },
+    "ibanFormat": "CCkk bbbb cccc cccc cccc cccc cccc",
+    "id": 6879
+  },
+  {
+    "country": { "code": "TL", "name": "East Timor" },
+    "chars": 23,
+    "bbanFormat": { "alpha": 0, "digit": 19, "mixed": 0, "order": ["n"] },
+    "ibanFormat": "CCkk bbbc cccc cccc cccc cxx",
+    "id": 8476
+  },
+  {
+    "country": { "code": "EE", "name": "Estonia" },
+    "chars": 20,
+    "bbanFormat": { "alpha": 0, "digit": 16, "mixed": 0, "order": ["n"] },
+    "ibanFormat": "CCkk bbss cccc cccc cccx",
+    "id": 6969
+  },
+  {
+    "country": { "code": "FO", "name": "Faroe Islands" },
+    "chars": 18,
+    "bbanFormat": { "alpha": 0, "digit": 14, "mixed": 0, "order": ["n"] },
+    "ibanFormat": "CCkk bbbb cccc cccc cx",
+    "id": 7079
+  },
+  {
+    "country": { "code": "FI", "name": "Finland" },
+    "chars": 18,
+    "bbanFormat": { "alpha": 0, "digit": 14, "mixed": 0, "order": ["n"] },
+    "ibanFormat": "CCkk bbbb bbcc cccc cx",
+    "id": 7073
+  },
+  {
+    "country": { "code": "FR", "name": "France" },
+    "chars": 27,
+    "bbanFormat": { "alpha": 0, "digit": 10, "mixed": 11, "order": ["n", "c", "n"] },
+    "ibanFormat": "CCkk bbbb bsss sscc cccc cccc cxx",
+    "id": 7082
+  },
+  {
+    "country": { "code": "GE", "name": "Georgia" },
+    "chars": 22,
+    "bbanFormat": { "alpha": 0, "digit": 16, "mixed": 2, "order": ["c", "n"] },
+    "ibanFormat": "CCkk bbcc cccc cccc cccc cc",
+    "id": 7169
+  },
+  {
+    "country": { "code": "DE", "name": "Germany" },
+    "chars": 22,
+    "bbanFormat": { "alpha": 0, "digit": 18, "mixed": 0, "order": ["n"] },
+    "ibanFormat": "CCkk bbbb bbbb cccc cccc cc",
+    "id": 6869
+  },
+  {
+    "country": { "code": "GI", "name": "Gibraltar" },
+    "chars": 23,
+    "bbanFormat": { "alpha": 4, "digit": 0, "mixed": 15, "order": ["a", "c"] },
+    "ibanFormat": "CCkk bbbb cccc cccc cccc ccc",
+    "id": 7173
+  },
+  {
+    "country": { "code": "GR", "name": "Greece" },
+    "chars": 27,
+    "bbanFormat": { "alpha": 0, "digit": 7, "mixed": 16, "order": ["n", "c"] },
+    "ibanFormat": "CCkk bbbs sssc cccc cccc cccc ccc",
+    "id": 7182
+  },
+  {
+    "country": { "code": "GL", "name": "Greenland" },
+    "chars": 18,
+    "bbanFormat": { "alpha": 0, "digit": 14, "mixed": 0, "order": ["n"] },
+    "ibanFormat": "CCkk bbbb cccc cccc cc",
+    "id": 7176
+  },
+  {
+    "country": { "code": "GT", "name": "Guatemala " },
+    "chars": 28,
+    "bbanFormat": { "alpha": 0, "digit": 0, "mixed": 4, "order": ["c", "c"] },
+    "ibanFormat": "CCkk bbbb mmtt cccc cccc cccc cccc",
+    "id": 7184
+  },
+  {
+    "country": { "code": "HU", "name": "Hungary" },
+    "chars": 28,
+    "bbanFormat": { "alpha": 0, "digit": 24, "mixed": 0, "order": ["n"] },
+    "ibanFormat": "CCkk bbbs sssx cccc cccc cccc cccx",
+    "id": 7285
+  },
+  {
+    "country": { "code": "IS", "name": "Iceland" },
+    "chars": 26,
+    "bbanFormat": { "alpha": 0, "digit": 22, "mixed": 0, "order": ["n"] },
+    "ibanFormat": "CCkk bbbb sscc cccc iiii iiii ii",
+    "id": 7383
+  },
+  {
+    "country": { "code": "IE", "name": "Ireland" },
+    "chars": 22,
+    "bbanFormat": { "alpha": 0, "digit": 14, "mixed": 4, "order": ["c", "n"] },
+    "ibanFormat": "CCkk aaaa bbbb bbcc cccc cc",
+    "id": 7369
+  },
+  {
+    "country": { "code": "IL", "name": "Israel" },
+    "chars": 23,
+    "bbanFormat": { "alpha": 0, "digit": 19, "mixed": 0, "order": ["n"] },
+    "ibanFormat": "CCkk bbbn nncc cccc cccc ccc",
+    "id": 7376
+  },
+  {
+    "country": { "code": "IT", "name": "Italy" },
+    "chars": 27,
+    "bbanFormat": { "alpha": 1, "digit": 10, "mixed": 12, "order": ["a", "n", "c"] },
+    "ibanFormat": "CCkk xbbb bbss sssc cccc cccc ccc",
+    "id": 7384
+  },
+  {
+    "country": { "code": "JO", "name": "Jordan" },
+    "chars": 30,
+    "bbanFormat": { "alpha": 4, "digit": 22, "mixed": 0, "order": ["a", "n"] },
+    "ibanFormat": "CCkk bbbb ssss cccc cccc cccc cccc cc",
+    "id": 7479
+  },
+  {
+    "country": { "code": "KZ", "name": "Kazakhstan" },
+    "chars": 20,
+    "bbanFormat": { "alpha": 0, "digit": 3, "mixed": 13, "order": ["n", "c"] },
+    "ibanFormat": "CCkk bbbc cccc cccc cccc",
+    "id": 7590
+  },
+  {
+    "country": { "code": "XK", "name": "Kosovo" },
+    "chars": 20,
+    "bbanFormat": { "alpha": 0, "digit": 4, "mixed": 0, "order": ["n", "n", "n"] },
+    "ibanFormat": "CCkk bbbb cccc cccc cccc",
+    "id": 8875
+  },
+  {
+    "country": { "code": "KW", "name": "Kuwait" },
+    "chars": 30,
+    "bbanFormat": { "alpha": 4, "digit": 0, "mixed": 22, "order": ["a", "c"] },
+    "ibanFormat": "CCkk bbbb cccc cccc cccc cccc cccc cc",
+    "id": 7587
+  },
+  {
+    "country": { "code": "LV", "name": "Latvia" },
+    "chars": 21,
+    "bbanFormat": { "alpha": 4, "digit": 0, "mixed": 13, "order": ["a", "c"] },
+    "ibanFormat": "CCkk bbbb cccc cccc cccc c",
+    "id": 7686
+  },
+  {
+    "country": { "code": "LB", "name": "Lebanon" },
+    "chars": 28,
+    "bbanFormat": { "alpha": 0, "digit": 4, "mixed": 20, "order": ["n", "c"] },
+    "ibanFormat": "CCkk bbbb cccc cccc cccc cccc cccc",
+    "id": 7666
+  },
+  {
+    "country": { "code": "LI", "name": "Liechtenstein" },
+    "chars": 21,
+    "bbanFormat": { "alpha": 0, "digit": 5, "mixed": 12, "order": ["n", "c"] },
+    "ibanFormat": "CCkk bbbb bccc cccc cccc c",
+    "id": 7673
+  },
+  {
+    "country": { "code": "LT", "name": "Lithuania" },
+    "chars": 20,
+    "bbanFormat": { "alpha": 0, "digit": 16, "mixed": 0, "order": ["n"] },
+    "ibanFormat": "CCkk bbbb bccc cccc cccc",
+    "id": 7684
+  },
+  {
+    "country": { "code": "LU", "name": "Luxembourg" },
+    "chars": 20,
+    "bbanFormat": { "alpha": 0, "digit": 3, "mixed": 13, "order": ["n", "c"] },
+    "ibanFormat": "CCkk bbbc cccc cccc cccc",
+    "id": 7685
+  },
+  {
+    "country": { "code": "MK", "name": "North Macedonia" },
+    "chars": 19,
+    "bbanFormat": { "alpha": 0, "digit": 3, "mixed": 10, "order": ["n", "c", "n"] },
+    "ibanFormat": "CCkk bbbc cccc cccc cxx",
+    "id": 7775
+  },
+  {
+    "country": { "code": "MT", "name": "Malta" },
+    "chars": 31,
+    "bbanFormat": { "alpha": 4, "digit": 5, "mixed": 18, "order": ["a", "n", "c"] },
+    "ibanFormat": "CCkk bbbb ssss sccc cccc cccc cccc ccc",
+    "id": 7784
+  },
+  {
+    "country": { "code": "MR", "name": "Mauritania" },
+    "chars": 27,
+    "bbanFormat": { "alpha": 0, "digit": 23, "mixed": 0, "order": ["n"] },
+    "ibanFormat": "CCkk bbbb bsss sscc cccc cccc cxx",
+    "id": 7782
+  },
+  {
+    "country": { "code": "MU", "name": "Mauritius" },
+    "chars": 30,
+    "bbanFormat": { "alpha": 4, "digit": 19, "mixed": 0, "order": ["a", "n", "a"] },
+    "ibanFormat": "CCkk bbbb bbss cccc cccc cccc 000m mm",
+    "id": 7785
+  },
+  {
+    "country": { "code": "MC", "name": "Monaco" },
+    "chars": 27,
+    "bbanFormat": { "alpha": 0, "digit": 10, "mixed": 11, "order": ["n", "c", "n"] },
+    "ibanFormat": "CCkk bbbb bsss sscc cccc cccc cxx",
+    "id": 7767
+  },
+  {
+    "country": { "code": "MD", "name": "Moldova" },
+    "chars": 24,
+    "bbanFormat": { "alpha": 0, "digit": 0, "mixed": 2, "order": ["c", "c"] },
+    "ibanFormat": "CCkk bbcc cccc cccc cccc cccc",
+    "id": 7768
+  },
+  {
+    "country": { "code": "ME", "name": "Montenegro" },
+    "chars": 22,
+    "bbanFormat": { "alpha": 0, "digit": 18, "mixed": 0, "order": ["n"] },
+    "ibanFormat": "CCkk bbbc cccc cccc cccc xx",
+    "id": 7769
+  },
+  {
+    "country": { "code": "NL", "name": "Netherlands" },
+    "chars": 18,
+    "bbanFormat": { "alpha": 4, "digit": 10, "mixed": 0, "order": ["a", "n"] },
+    "ibanFormat": "CCkk bbbb cccc cccc cc",
+    "id": 7876
+  },
+  {
+    "country": { "code": "NO", "name": "Norway" },
+    "chars": 15,
+    "bbanFormat": { "alpha": 0, "digit": 11, "mixed": 0, "order": ["n"] },
+    "ibanFormat": "CCkk bbbb cccc ccx",
+    "id": 7879
+  },
+  {
+    "country": { "code": "PK", "name": "Pakistan" },
+    "chars": 24,
+    "bbanFormat": { "alpha": 0, "digit": 16, "mixed": 4, "order": ["c", "n"] },
+    "ibanFormat": "CCkk bbbb cccc cccc cccc cccc",
+    "id": 8075
+  },
+  {
+    "country": { "code": "PS", "name": "Palestinian territories" },
+    "chars": 29,
+    "bbanFormat": { "alpha": 0, "digit": 21, "mixed": 4, "order": ["c", "n"] },
+    "ibanFormat": "CCkk bbbb xxxx xxxx xccc cccc cccc c",
+    "id": 8083
+  },
+  {
+    "country": { "code": "PL", "name": "Poland" },
+    "chars": 28,
+    "bbanFormat": { "alpha": 0, "digit": 24, "mixed": 0, "order": ["n"] },
+    "ibanFormat": "CCkk bbbs sssx cccc cccc cccc cccc",
+    "id": 8076
+  },
+  {
+    "country": { "code": "PT", "name": "Portugal" },
+    "chars": 25,
+    "bbanFormat": { "alpha": 0, "digit": 21, "mixed": 0, "order": ["n"] },
+    "ibanFormat": "CCkk bbbb ssss cccc cccc cccx x",
+    "id": 8084
+  },
+  {
+    "country": { "code": "QA", "name": "Qatar" },
+    "chars": 29,
+    "bbanFormat": { "alpha": 4, "digit": 0, "mixed": 21, "order": ["a", "c"] },
+    "ibanFormat": "CCkk bbbb cccc cccc cccc cccc cccc c",
+    "id": 8165
+  },
+  {
+    "country": { "code": "RO", "name": "Romania" },
+    "chars": 24,
+    "bbanFormat": { "alpha": 4, "digit": 0, "mixed": 16, "order": ["a", "c"] },
+    "ibanFormat": "CCkk bbbb cccc cccc cccc cccc",
+    "id": 8279
+  },
+  {
+    "country": { "code": "SM", "name": "San Marino" },
+    "chars": 27,
+    "bbanFormat": { "alpha": 1, "digit": 10, "mixed": 12, "order": ["a", "n", "c"] },
+    "ibanFormat": "CCkk xbbb bbss sssc cccc cccc ccc",
+    "id": 8377
+  },
+  {
+    "country": { "code": "SA", "name": "Saudi Arabia" },
+    "chars": 24,
+    "bbanFormat": { "alpha": 0, "digit": 2, "mixed": 18, "order": ["n", "c"] },
+    "ibanFormat": "CCkk bbcc cccc cccc cccc cccc",
+    "id": 8365
+  },
+  {
+    "country": { "code": "RS", "name": "Serbia" },
+    "chars": 22,
+    "bbanFormat": { "alpha": 0, "digit": 18, "mixed": 0, "order": ["n"] },
+    "ibanFormat": "CCkk bbbc cccc cccc cccc xx",
+    "id": 8283
+  },
+  {
+    "country": { "code": "SK", "name": "Slovakia" },
+    "chars": 24,
+    "bbanFormat": { "alpha": 0, "digit": 20, "mixed": 0, "order": ["n"] },
+    "ibanFormat": "CCkk bbbb ssss sscc cccc cccc",
+    "id": 8375
+  },
+  {
+    "country": { "code": "SI", "name": "Slovenia" },
+    "chars": 19,
+    "bbanFormat": { "alpha": 0, "digit": 15, "mixed": 0, "order": ["n"] },
+    "ibanFormat": "CCkk bbss sccc cccc cxx",
+    "id": 8373
+  },
+  {
+    "country": { "code": "ES", "name": "Spain" },
+    "chars": 24,
+    "bbanFormat": { "alpha": 0, "digit": 20, "mixed": 0, "order": ["n"] },
+    "ibanFormat": "CCkk bbbb ssss xxcc cccc cccc",
+    "id": 6983
+  },
+  {
+    "country": { "code": "SE", "name": "Sweden" },
+    "chars": 24,
+    "bbanFormat": { "alpha": 0, "digit": 20, "mixed": 0, "order": ["n"] },
+    "ibanFormat": "CCkk bbbc cccc cccc cccc cccc",
+    "id": 8369
+  },
+  {
+    "country": { "code": "CH", "name": "Switzerland" },
+    "chars": 21,
+    "bbanFormat": { "alpha": 0, "digit": 5, "mixed": 12, "order": ["n", "c"] },
+    "ibanFormat": "CCkk bbbb bccc cccc cccc c",
+    "id": 6772
+  },
+  {
+    "country": { "code": "TN", "name": "Tunisia" },
+    "chars": 24,
+    "bbanFormat": { "alpha": 0, "digit": 20, "mixed": 0, "order": ["n"] },
+    "ibanFormat": "CCkk bbss sccc cccc cccc cccc",
+    "id": 8478
+  },
+  {
+    "country": { "code": "TR", "name": "Turkey" },
+    "chars": 26,
+    "bbanFormat": { "alpha": 0, "digit": 5, "mixed": 17, "order": ["n", "c"] },
+    "ibanFormat": "CCkk bbbb bxcc cccc cccc cccc cc",
+    "id": 8482
+  },
+  {
+    "country": { "code": "AE", "name": "United Arab Emirates" },
+    "chars": 23,
+    "bbanFormat": { "alpha": 0, "digit": 3, "mixed": 0, "order": ["n", "n"] },
+    "ibanFormat": "CCkk bbbc cccc cccc cccc ccc",
+    "id": 6569
+  },
+  {
+    "country": { "code": "GB", "name": "United Kingdom" },
+    "chars": 22,
+    "bbanFormat": { "alpha": 4, "digit": 14, "mixed": 0, "order": ["a", "n"] },
+    "ibanFormat": "CCkk bbbb ssss sscc cccc cc",
+    "id": 7166
+  },
+  {
+    "country": { "code": "VA", "name": "Vatican City" },
+    "chars": 22,
+    "bbanFormat": { "alpha": 0, "digit": 3, "mixed": 0, "order": ["n", "n"] },
+    "ibanFormat": "CCkk bbbc cccc cccc cccc cc",
+    "id": 8665
+  },
+  {
+    "country": { "code": "VG", "name": "Virgin Islands, British" },
+    "chars": 24,
+    "bbanFormat": { "alpha": 0, "digit": 16, "mixed": 4, "order": ["c", "n"] },
+    "ibanFormat": "CCkk bbbb cccc cccc cccc cccc",
+    "id": 8671
+  }
+]
