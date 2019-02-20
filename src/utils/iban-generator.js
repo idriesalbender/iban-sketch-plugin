@@ -95,6 +95,10 @@ export const generateIBAN = options => {
     pool = DATA.map(c => c.country.name);
   }
 
+  if (options && typeof options !== 'object') {
+    throw new Error('Must pass an object!');
+  }
+
   if (pool) {
     result = pool[chance.integer({ min: 0, max: pool.length })];
     return generateIBANFromCountry(result);
