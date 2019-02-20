@@ -5,7 +5,7 @@
   "suppliesData": true,
   "commands": [
     {
-      "name": "Random IBAN",
+      "name": "Random",
       "identifier": "iban-generator.iban-random",
       "handlers": {
         "actions": {
@@ -17,7 +17,7 @@
       "script": "./iban-random.js"
     },
     {
-      "name": "Country IBAN",
+      "name": "Specific country...",
       "identifier": "iban-generator.iban-country",
       "handlers": {
         "actions": {
