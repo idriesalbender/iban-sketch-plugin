@@ -1,93 +1,106 @@
-# iban-generator
+# IBAN Generator
 
-_This plugin was created using `skpm`. For a detailed explanation on how things work, checkout the [skpm Readme](https://github.com/skpm/skpm/blob/master/README.md)._
+Easily generate fake IBAN numbers in your Sketch files.
 
 ## Usage
 
-Install the dependencies
+To use this plugin, simply access it like you access other Data plugins for Sketch.
 
-```bash
-npm install
-```
+### Random
 
-Once the installation is done, you can run some commands inside the project folder:
+To generate a completely random IBAN, use the **Random** option. This will return an IBAN number from any country currently using the standard.
 
-```bash
-npm run build
-```
+Example: `GL35 6200 4976 6719 31`
 
-To watch for changes:
+### Specific country
 
-```bash
-npm run watch
-```
+To generate a random IBAN, but for a specific country, use the **Specific country** option. Select the country you want, and hit OK.
 
-Additionally, if you wish to run the plugin every time it is built:
+## Specs
 
-```bash
-npm run start
-```
+### Supported countries
 
-## Custom Configuration
+The list of supported countries is derived from the [IBAN Wikipedia](https://en.wikipedia.org/wiki/International_Bank_Account_Number#IBAN_formats_by_country) page.
 
-### Babel
+*See an IBAN country that's not in the list? Open an issue, or create a pull request.*
 
-To customize Babel, you have two options:
+Currently, the list contains:
 
-* You may create a [`.babelrc`](https://babeljs.io/docs/usage/babelrc) file in your project's root directory. Any settings you define here will overwrite matching config-keys within skpm preset. For example, if you pass a "presets" object, it will replace & reset all Babel presets that skpm defaults to.
+| Country                 | ISO Alpha-2 Country Code |
+| ----------------------- | ------------------------ |
+| Albania                 | `AL`                     |
+| Andorra                 | `AD`                     |
+| Austria                 | `AT`                     |
+| Azerbaijan              | `AZ`                     |
+| Bahrain                 | `BH`                     |
+| Belarus                 | `BY`                     |
+| Belgium                 | `BE`                     |
+| Bosnia and Herzegovina  | `BA`                     |
+| Brazil                  | `BR`                     |
+| Bulgaria                | `BG`                     |
+| Costa Rica              | `CR`                     |
+| Croatia                 | `HR`                     |
+| Cyprus                  | `CY`                     |
+| Czech Republic          | `CZ`                     |
+| Denmark                 | `DK`                     |
+| Dominican Republic      | `DO`                     |
+| East Timor              | `TL`                     |
+| Estonia                 | `EE`                     |
+| Faroe Islands           | `FO`                     |
+| Finland                 | `FI`                     |
+| France                  | `FR`                     |
+| Georgia                 | `GE`                     |
+| Germany                 | `DE`                     |
+| Gibraltar               | `GI`                     |
+| Greece                  | `GR`                     |
+| Greenland               | `GL`                     |
+| Guatemala               | `GT`                     |
+| Hungary                 | `HU`                     |
+| Iceland                 | `IS`                     |
+| Ireland                 | `IE`                     |
+| Israel                  | `IL`                     |
+| Italy                   | `IT`                     |
+| Jordan                  | `JO`                     |
+| Kazakhstan              | `KZ`                     |
+| Kosovo                  | `XK`                     |
+| Kuwait                  | `KW`                     |
+| Latvia                  | `LV`                     |
+| Lebanon                 | `LB`                     |
+| Liechtenstein           | `LI`                     |
+| Lithuania               | `LT`                     |
+| Luxembourg              | `LU`                     |
+| North Macedonia         | `MK`                     |
+| Malta                   | `MT`                     |
+| Mauritania              | `MR`                     |
+| Mauritius               | `MU`                     |
+| Monaco                  | `MC`                     |
+| Moldova                 | `MD`                     |
+| Montenegro              | `ME`                     |
+| Netherlands             | `NL`                     |
+| Norway                  | `NO`                     |
+| Pakistan                | `PK`                     |
+| Palestinian territories | `PS`                     |
+| Poland                  | `PL`                     |
+| Portugal                | `PT`                     |
+| Qatar                   | `QA`                     |
+| Romania                 | `RO`                     |
+| San Marino              | `SM`                     |
+| Saudi Arabia            | `SA`                     |
+| Serbia                  | `RS`                     |
+| Slovakia                | `SK`                     |
+| Slovenia                | `SI`                     |
+| Spain                   | `ES`                     |
+| Sweden                  | `SE`                     |
+| Switzerland             | `CH`                     |
+| Tunisia                 | `TN`                     |
+| Turkey                  | `TR`                     |
+| United Arab Emirates    | `AE`                     |
+| United Kingdom          | `GB`                     |
+| Vatican City            | `VA`                     |
+| Virgin Islands, British | `VG`                     |
 
-* If you'd like to modify or add to the existing Babel config, you must use a `webpack.skpm.config.js` file. Visit the [Webpack](#webpack) section for more info.
+### IBAN format
 
-### Webpack
+The IBAN template formatting used, is country-specific. This means that each country has a different combination of of digits and (upper and lower) alpha characters. 
 
-To customize webpack create `webpack.skpm.config.js` file which exports function that will change webpack's config.
-
-```js
-/**
- * Function that mutates original webpack config.
- * Supports asynchronous changes when promise is returned.
- *
- * @param {object} config - original webpack config.
- * @param {boolean} isPluginCommand - whether the config is for a plugin command or a resource
- **/
-module.exports = function(config, isPluginCommand) {
-  /** you can change config here **/
-}
-```
-
-## Debugging
-
-To view the output of your `console.log`, you have a few different options:
-
-* Use the [`sketch-dev-tools`](https://github.com/skpm/sketch-dev-tools)
-* Open `Console.app` and look for the sketch logs
-* Look at the `~/Library/Logs/com.bohemiancoding.sketch3/Plugin Output.log` file
-
-Skpm provides a convenient way to do the latter:
-
-```bash
-skpm log
-```
-
-The `-f` option causes `skpm log` to not stop when the end of logs is reached, but rather to wait for additional data to be appended to the input
-
-## Publishing your plugin
-
-```bash
-skpm publish <bump>
-```
-
-(where `bump` can be `patch`, `minor` or `major`)
-
-`skpm publish` will create a new release on your GitHub repository and create an appcast file in order for Sketch users to be notified of the update.
-
-You will need to specify a `repository` in the `package.json`:
-
-```diff
-...
-+ "repository" : {
-+   "type": "git",
-+   "url": "git+https://github.com/ORG/NAME.git"
-+  }
-...
-```
+These formats are derived from the [IBAN Wikipedia](https://en.wikipedia.org/wiki/International_Bank_Account_Number#IBAN_formats_by_country) page.
