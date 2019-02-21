@@ -28,9 +28,5 @@
       },
       "script": "./iban-country.js"
     }
-  ],
-  "menu": {
-    "title": "IBAN Generator",
-    "items": ["iban-generator.iban-random", "iban-generator.iban-country"]
-  }
+  ]
 }
