@@ -12,9 +12,13 @@ To generate a completely random IBAN, use the **Random** option. This will retur
 
 Example: `GL35 6200 4976 6719 31`
 
+![Random IBAN GIF](assets/iban-random.gif "Random IBAN")
+
 ### Specific country
 
 To generate a random IBAN, but for a specific country, use the **Specific country** option. Select the country you want, and hit OK.
+
+![Specific country IBAN GIF](assets/iban-specific.gif "Specific country IBAN")
 
 ## Specs
 
