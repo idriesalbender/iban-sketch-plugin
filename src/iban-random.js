@@ -3,7 +3,7 @@ import util from 'util';
 import { generateIBAN } from './utils/iban-generator';
 
 export const onStartup = () => {
-  DataSupplier.registerDataSupplier('public.text', 'Random IBAN', 'SupplyRandomIBAN');
+  DataSupplier.registerDataSupplier('public.text', 'Random', 'SupplyRandomIBAN');
 };
 
 export const onShutdown = () => {

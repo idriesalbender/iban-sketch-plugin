@@ -4,7 +4,7 @@ import DATA from './utils/data.json';
 import { generateIBAN } from './utils/iban-generator';
 
 export const onStartup = () => {
-  DataSupplier.registerDataSupplier('public.text', 'Specific country', 'SupplyCountryIBAN');
+  DataSupplier.registerDataSupplier('public.text', 'Specific country...', 'SupplyCountryIBAN');
 };
 
 export const onShutdown = () => {
